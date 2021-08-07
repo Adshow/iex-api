@@ -32,7 +32,7 @@ class CreateCompaniesTable extends Migration
             $table->string('address2')->nullable();
             $table->string('state')->nullable();
             $table->string('city')->nullable();
-            $table->integer('zip')->nullable();
+            $table->string('zip')->nullable();
             $table->string('country')->nullable();
             $table->string('phone')->nullable();
 
